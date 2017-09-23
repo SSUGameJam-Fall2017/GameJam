@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "1d7ff1dd-1944-419e-85e4-aa3e69daf4bd",
+            "Value": {
+                "id": "1502c444-69d5-4e0c-9dbe-c70dab38c585",
+                "resourcePath": "sprites\\spr_enemy\\spr_enemy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "202c7b7b-bdcb-460a-a3e6-6f29d0d7adf7",
             "Value": {
                 "id": "e522e414-09bd-4e7a-840a-a77785a07f82",
@@ -159,6 +167,14 @@
             }
         },
         {
+            "Key": "360874a3-b86a-4b38-afd3-5ed71a9b8269",
+            "Value": {
+                "id": "3be4521b-6d63-417b-8391-00306e226c03",
+                "resourcePath": "paths\\enemy_path\\enemy_path.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "39fbaff8-086a-4e3a-9582-418f9e558c20",
             "Value": {
                 "id": "e886d48f-da92-4adf-87b9-d84e8e041f98",
@@ -188,6 +204,14 @@
                 "id": "07d87c70-dd71-40d8-aa27-bf03bb5db50e",
                 "resourcePath": "sprites\\spr_tiles\\spr_tiles.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "51acd642-1cdc-4237-b0f1-ef62fa9aae2b",
+            "Value": {
+                "id": "76263904-5468-45a7-a7e5-83fea26013ed",
+                "resourcePath": "objects\\obj_enemy\\obj_enemy.yy",
+                "resourceType": "GMObject"
             }
         },
         {
