@@ -1,5 +1,5 @@
 {
-    "id": "44f8cee1-4f3e-49e9-9b9c-cf51185579c2",
+    "id": "9030292e-4266-4389-981a-24e5d7a09f9b",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "obj_bed",
@@ -22,6 +22,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "03a27ca1-4761-4b7b-a6d6-25665a9d4a34",
+    "spriteId": "87cc89d9-a5e9-4e70-8890-d04b1afdd958",
     "visible": true
 }

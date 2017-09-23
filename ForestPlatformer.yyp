@@ -375,10 +375,26 @@
             }
         },
         {
+            "Key": "87cc89d9-a5e9-4e70-8890-d04b1afdd958",
+            "Value": {
+                "id": "24ad55cc-55c8-4824-890b-0e28980f456a",
+                "resourcePath": "sprites\\spr_bed\\spr_bed.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "890f404a-df19-4780-95eb-bd190be4647d",
             "Value": {
                 "id": "0c1b5f45-39b6-421d-b3c1-9f2111ce463d",
                 "resourcePath": "objects\\obj_game_manager\\obj_game_manager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9030292e-4266-4389-981a-24e5d7a09f9b",
+            "Value": {
+                "id": "8cefcfef-d629-4346-ae89-c55103464b73",
+                "resourcePath": "objects\\obj_bed\\obj_bed.yy",
                 "resourceType": "GMObject"
             }
         },
