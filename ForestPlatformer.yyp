@@ -247,6 +247,22 @@
             }
         },
         {
+            "Key": "65390588-231a-4992-b6b9-32a8ec8f3b61",
+            "Value": {
+                "id": "a52a064b-60ad-4c1f-a6c2-582dda019749",
+                "resourcePath": "objects\\obj_shelf_close\\obj_shelf_close.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "67e3b1de-5805-4ac4-9a20-1ba517406d97",
+            "Value": {
+                "id": "81dd9401-5030-494e-9180-c84f289586e7",
+                "resourcePath": "objects\\obj_shelf_open\\obj_shelf_open.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "69b46db5-8381-4e46-a7b2-c760c94f7f04",
             "Value": {
                 "id": "09eaf650-258f-425c-b7b6-f7cee65d46fc",
@@ -447,11 +463,27 @@
             }
         },
         {
+            "Key": "cc137360-d0bb-45ec-ba8f-b6b823310c96",
+            "Value": {
+                "id": "d225701c-690f-43c0-b301-6283599a8353",
+                "resourcePath": "rooms\\room2\\room2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "5d06826a-f154-4ea0-ad18-03e2e356ae6a",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "db0b7080-ff46-4bf2-acf4-d29c4d97760c",
+            "Value": {
+                "id": "3c27ea2d-fdc4-4073-ab60-c7cf14be13dd",
+                "resourcePath": "sprites\\spr_shelf_open\\spr_shelf_open.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -484,6 +516,14 @@
                 "id": "53f497e5-cbb3-45cb-8fdd-a139654aff62",
                 "resourcePath": "objects\\obj_collidable\\obj_collidable.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e8faa9e9-1d4a-434a-9252-aff00eb17bb9",
+            "Value": {
+                "id": "80d40017-0781-4e99-b502-18b011d46276",
+                "resourcePath": "sprites\\spr_shelf_close\\spr_shelf_close.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
