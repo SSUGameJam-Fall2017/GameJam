@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "91b7dec2-c759-4da2-b00e-b53675b0b602",
+            "Value": {
+                "id": "d68033fe-3168-4112-a321-e5b34200029a",
+                "resourcePath": "sprites\\spr_pills\\spr_pills.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a6fd4041-4707-4b18-8ed5-b000a39f0094",
             "Value": {
                 "id": "3f7d2c62-f509-46bc-8fd7-2472abe8791f",
@@ -252,6 +260,14 @@
                 "id": "9d28611b-81a8-4087-a1e5-4f786ab26b94",
                 "resourcePath": "views\\e18e81c0-e3fc-43c8-8367-30414ee11ff8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e1d690d4-d215-4ee6-87c2-7b157e05c7c6",
+            "Value": {
+                "id": "dadfcfee-72eb-4ab3-bb67-aa4576c9250c",
+                "resourcePath": "sprites\\spr_inventory_slot\\spr_inventory_slot.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
