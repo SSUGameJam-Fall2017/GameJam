@@ -1,5 +1,7 @@
 /// @description Create Inventory
 
+// ---- creates inv slots, setting one active ---
+
 inventory_slots = ds_list_create()
 
 for (i=0; i<5; i++) {
@@ -7,13 +9,9 @@ for (i=0; i<5; i++) {
 	ds_list_add(inventory_slots, temp)
 }
 
-for (i=0; i<5; i++){
-	t=ds_list_find_value(inventory_slots, i)
-	if i == 0 {
-		t.active = true
-		break
-	}
-	t.active = false
-}
+t=ds_list_find_value(inventory_slots, 0) // ONLY USED TO SET INIT ACTIVE SLOT
+t.active = true
 
 active = 0 // index of active item
+
+// ----------------------------------------------

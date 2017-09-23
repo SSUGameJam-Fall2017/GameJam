@@ -1,3 +1,3 @@
 /// @description if "5" is pressed
 
-inventory.active = "5"
+obj_inventory.active = "5"
