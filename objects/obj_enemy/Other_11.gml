@@ -13,9 +13,13 @@ if (point_distance(x,y,player_x,player_y) < 110){
 	
 	if (x < player_x){
 		hps = 2
+		image_xscale = -1
 	}else{
 		hps = -2
+		image_xscale = 1
 	}
+	
+	
 	if (point_distance(x,y,player_x,player_y) < 32){
 		hps = 0	
 		enemy_state = e_state.ATTACK

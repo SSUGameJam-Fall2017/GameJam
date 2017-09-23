@@ -4,14 +4,15 @@ if (path_index != enemy_path){
 		y += grav
 	}
 	
-	path_x_begin = path_get_x(enemy_path,0)
-	path_x_end = path_get_x(enemy_path,1)
+	path_x_begin = path_get_x(en_path,0)
+	path_x_end = path_get_x(en_path,1)
 	if (x < path_x_begin){
 		hps = 2
+		image_xscale = -1
 	
 	}else{
 		hps = -2
-	
+		image_xscale = 1
 	}
 	if (place_meeting(x + hps, y, obj_collidable)) {
 		while (not place_meeting(x + sign(hps), y, obj_collidable)) {
@@ -27,11 +28,12 @@ if (path_index != enemy_path){
 	}
 	
 	if (abs(x - start_x) < 2 && abs(y - start_y) < 2){
-		path_start(enemy_path, 3, path_action_reverse,false);
+		path_start(en_path, 3, path_action_reverse,false);
 		mode = 1
 		enemy_state = e_state.IDLE
 	
 	}
-
+	show_debug_message("Enemy X" + string(x))
+	show_debug_message("Player X" + string(path_x_begin))
 
 }

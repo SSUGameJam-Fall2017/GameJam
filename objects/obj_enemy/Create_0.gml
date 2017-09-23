@@ -15,4 +15,8 @@ enum e_state{
 	DEATH
 }
 enemy_state = e_state.IDLE
-path_start(enemy_path, 3, path_action_reverse,false);
+
+en_path = path_add()
+path_add_point(en_path,x,y,100)
+path_add_point(en_path,x-100,y,100)
+path_start(en_path, 3, path_action_reverse,false);
