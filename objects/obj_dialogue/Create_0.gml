@@ -1,12 +1,14 @@
 /// @description Initialize Dialogue
 
+speaker = "";
+speaker_start_x = 115;
+speaker_start_y = 75;
 text = "";
 text_start_x = 20;
-text_start_y = y - 75;
+text_start_y = 10;
 
 line_offset = 20;
+chars_per_line = 108;
 
-lines = ds_list_create();
-if string_width(text) < display_get_gui_width() - 40 {
-	
-}
+output_lines[0] = "";
+words[0] = "";
