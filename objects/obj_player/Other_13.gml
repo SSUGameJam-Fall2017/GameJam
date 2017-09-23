@@ -15,7 +15,11 @@ if (place_meeting(x, y + acceleration[1], obj_collidable)) {
 		image_speed = 0;
 	}
 	
-	var h_input = keyboard_check(vk_right) - keyboard_check(vk_left);
+	var h_input = 0;
+	
+	if obj_game_manager.input_allowed {
+		h_input = keyboard_check(vk_right) - keyboard_check(vk_left);
+	}
 	
 	if (not place_meeting(x, y + acceleration[1], obj_collidable)) {
 		velocity[1] += acceleration[1];

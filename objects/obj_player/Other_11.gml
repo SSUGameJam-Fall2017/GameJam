@@ -4,6 +4,12 @@ var h_input = keyboard_check(vk_right) - keyboard_check(vk_left);
 var v_input = keyboard_check(vk_up) - keyboard_check(vk_down);
 var space_input = keyboard_check(vk_space);
 
+if obj_game_manager.input_allowed {
+	h_input = keyboard_check(vk_right) - keyboard_check(vk_left);
+	v_input = keyboard_check(vk_up) - keyboard_check(vk_down);
+	space_input = keyboard_check(vk_space);
+}
+
 if (h_input == 0) { // To IDLE
 	state = IDLE;
 } else if (v_input > 0) { 

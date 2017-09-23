@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "890f404a-df19-4780-95eb-bd190be4647d",
+            "Value": {
+                "id": "0c1b5f45-39b6-421d-b3c1-9f2111ce463d",
+                "resourcePath": "objects\\obj_game_manager\\obj_game_manager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "912a0ba5-d8c4-44e7-94f6-bfc569c2c581",
             "Value": {
                 "id": "e58c929b-9c7c-431d-b057-63973b2244e9",
@@ -332,6 +340,14 @@
                 "id": "875a9928-9fcb-45a4-8f3d-8d7c5109ac8b",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "b4c6558a-ba7c-4f3b-b4c2-01fe992294a8",
+            "Value": {
+                "id": "6b3820ca-a560-40e9-a8b7-6f9f2fe48493",
+                "resourcePath": "objects\\obj_dialogue\\obj_dialogue.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -412,6 +428,14 @@
                 "id": "8e50560b-780c-4a47-a054-ced7aa2ecfeb",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f4fc21d6-10da-4cf9-9b02-bb7d5cc68d2d",
+            "Value": {
+                "id": "0e99700e-9b34-427e-b7e7-9ed161d4d2d9",
+                "resourcePath": "sprites\\spr_dialogue\\spr_dialogue.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
