@@ -3,7 +3,11 @@
 // idle
 player_x = obj_player.x
 player_y = obj_player.y
-
+if( abs(angle_difference(180, direction)) < 90){
+image_xscale = 1;
+}else{
+image_xscale = -1;
+}
 if (point_distance(x,y,player_x,player_y) < 110){ 
 	enemy_state = e_state.CHASE
 }

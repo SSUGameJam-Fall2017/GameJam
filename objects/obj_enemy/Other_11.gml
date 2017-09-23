@@ -20,7 +20,7 @@ if (point_distance(x,y,player_x,player_y) < 110){
 	}
 	
 	
-	if (point_distance(x,y,player_x,player_y) < 32){
+	if (point_distance(x,y,player_x,player_y) < 50){
 		hps = 0	
 		enemy_state = e_state.ATTACK
 	}
@@ -37,6 +37,7 @@ if (point_distance(x,y,player_x,player_y) < 110){
 			y += 1;
 		}
 	}
+	show_debug_message(string(point_distance(x,y,player_x,player_y)))
 }else if (path_index != enemy_path){
 	enemy_state = e_state.RETURN
 	
