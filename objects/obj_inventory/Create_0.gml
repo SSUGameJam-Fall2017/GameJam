@@ -8,11 +8,12 @@ for (i=0; i<5; i++) {
 }
 
 for (i=0; i<5; i++){
+	t=ds_list_find_value(inventory_slots, i)
 	if i == 0 {
-		inventory_slots[i].active = true
+		t.active = true
 		break
 	}
-	inventory_slots[i].active = false
+	t.active = false
 }
 
 active = 0 // index of active item
