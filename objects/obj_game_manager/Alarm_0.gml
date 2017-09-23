@@ -6,8 +6,9 @@ dialogue_obj = noone;
 if ds_queue_size(dialogue_queue) > 0 {
 	in_dialogue = true;
 	input_allowed = false;
-	dialogue_obj = instance_create_depth(0, display_get_gui_height(), 1000, obj_dialogue);
+	dialogue_obj = instance_create_depth(0, 0, 1000, obj_dialogue);
 	dialogue_obj.text = ds_queue_dequeue(dialogue_queue);
+	dialogue_obj.speaker = "Speaker";
 	with (dialogue_obj) {
 		event_user(0);
 	}
