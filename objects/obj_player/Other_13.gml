@@ -17,6 +17,10 @@ if (place_meeting(x, y + acceleration[1], obj_collidable)) {
 	
 	var h_input = keyboard_check(vk_right) - keyboard_check(vk_left);
 	
+	if (not place_meeting(x, y + acceleration[1], obj_collidable)) {
+		velocity[1] += acceleration[1];
+	}
+	
 	if (h_input != 0) {
 		facing = ((h_input > 0) * 2) - 1;
 		velocity[0] = clamp(velocity[0] + h_input * acceleration[0], -max_h_speed, max_h_speed);

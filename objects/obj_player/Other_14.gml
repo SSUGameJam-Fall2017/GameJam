@@ -8,4 +8,8 @@ if (image_index > 2) {
 		image_index = 0;
 		velocity = [0, 0]
 	}
+	
+	if (not place_meeting(x, y + acceleration[1], obj_collidable)) {
+		velocity[1] += acceleration[1];
+	}
 }
