@@ -2,3 +2,5 @@
 
 contains = ""
 count = 0
+
+active = false
