@@ -9,11 +9,11 @@ if (place_meeting(x, y + acceleration[1], obj_collidable)) {
 		state = WALKING;
 	}
 } else {
-	if (sprite_index != asset_get_index("spr_skeleton_walk")) {
-		sprite_index = asset_get_index("spr_skeleton_walk");
+	if (image_index == 4) {
+		sprite_index = asset_get_index("spr_player_walk");
+		image_index = 0;
+		image_speed = 0;
 	}
-	image_index = 5;
-	image_speed = 0;
 	
 	var h_input = keyboard_check(vk_right) - keyboard_check(vk_left);
 	
