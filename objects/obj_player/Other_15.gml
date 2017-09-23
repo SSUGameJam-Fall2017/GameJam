@@ -14,6 +14,12 @@ if (v_input == 0) {
 } else {
 	image_speed = 1;
 }
+
+if (h_input == 0) {
+	velocity[0] = 0;
+} else {
+	velocity[0] = clamp(velocity[0] + h_input * acceleration[0], -max_h_speed, max_h_speed);
+}
 	
 velocity[1] = clamp(velocity[1] - v_input, -max_v_speed, max_v_speed);
 
