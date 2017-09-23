@@ -8,3 +8,6 @@ CLOSING = 2;
 OPEN = 3;
 
 state = CLOSED;
+
+connected_room = 0;
+connected_door = 0;
