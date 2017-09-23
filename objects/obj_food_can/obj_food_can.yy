@@ -1,8 +1,8 @@
 {
-    "id": "3e003089-abe2-431d-9c69-ef78c4c4a2fe",
+    "id": "82403e05-2e3e-4a73-b87e-e98d6a826067",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_pills",
+    "name": "obj_food_can",
     "eventList": [
         
     ],
@@ -22,6 +22,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "91b7dec2-c759-4da2-b00e-b53675b0b602",
+    "spriteId": "7634a36d-2676-4aaf-b319-ec127d2a21b4",
     "visible": true
 }
