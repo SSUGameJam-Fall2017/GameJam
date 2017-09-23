@@ -8,6 +8,9 @@ if ds_queue_size(dialogue_queue) > 0 {
 	input_allowed = false;
 	dialogue_obj = instance_create_depth(0, display_get_gui_height(), 1000, obj_dialogue);
 	dialogue_obj.text = ds_queue_dequeue(dialogue_queue);
+	with (dialogue_obj) {
+		event_user(0);
+	}
 	alarm[0] = dialogue_time;
 } else {
 	in_dialogue = false;
