@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "1330c4ab-7876-40b2-a0af-c11c015618ab",
+            "Value": {
+                "id": "d1ad6e49-a642-4588-b0fe-e156c8843517",
+                "resourcePath": "objects\\obj_soundManager\\obj_soundManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1b9c9a6c-46d8-4f4a-9077-44ad736f5e35",
             "Value": {
                 "id": "3d8a688e-2999-4bad-a831-094e360c7929",
@@ -132,6 +140,14 @@
                 "id": "e522e414-09bd-4e7a-840a-a77785a07f82",
                 "resourcePath": "views\\202c7b7b-bdcb-460a-a3e6-6f29d0d7adf7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "215b9646-628a-4e92-a8ee-db7f2213c63c",
+            "Value": {
+                "id": "4a3ec106-b268-40dc-bf46-54c298694cdf",
+                "resourcePath": "sounds\\snd_darkTechno\\snd_darkTechno.yy",
+                "resourceType": "GMSound"
             }
         },
         {
