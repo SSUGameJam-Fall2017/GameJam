@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0ee50125-8ab1-446f-a0b5-5b720b05f02e",
+            "Value": {
+                "id": "b446bf40-4c92-490d-b935-630e4d66035a",
+                "resourcePath": "sprites\\spr_baseball_bat\\spr_baseball_bat.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "10bd08a0-6618-43d3-8ed6-b9f966386c4d",
             "Value": {
                 "id": "d1e7d3d0-df2c-4aa9-8f0a-313e3026412c",
@@ -60,6 +68,14 @@
                 "id": "e522e414-09bd-4e7a-840a-a77785a07f82",
                 "resourcePath": "views\\202c7b7b-bdcb-460a-a3e6-6f29d0d7adf7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "23b9a06e-8590-4964-8537-83954c8fd47d",
+            "Value": {
+                "id": "1a955322-0f73-4467-b17f-59204b45a7fb",
+                "resourcePath": "sprites\\spr_gun\\spr_gun.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
