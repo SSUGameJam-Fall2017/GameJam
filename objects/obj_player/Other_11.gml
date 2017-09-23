@@ -13,7 +13,19 @@ if obj_game_manager.input_allowed {
 if (h_input == 0) { // To IDLE
 	state = IDLE;
 } else if (v_input > 0) { 
-	if (place_meeting(x, y, obj_collidable_ladder)) { // To CLIMBING
+	if (place_meeting(x, y, obj_door)) { // To Connected Room
+		door = collision_line(x - sprite_width / 2, y - sprite_height / 2, 
+			x + sprite_width / 2, y - sprite_height / 2, obj_door, false, false);
+		if door {
+			transition_obj = instance_create_depth(0, 0, 1000, obj_transition);
+			transition_obj.room_index = door.connected_room;
+			transition_obj.destination_x = door.destination_x;
+			transition_obj.destination_y = door.destination_y;
+			with (transition_obj) {
+				event_user(0);
+			}
+		}
+	} else if (place_meeting(x, y, obj_collidable_ladder)) { // To CLIMBING
 		state = CLIMBING;
 	} else { // To JUMPING
 		state = JUMPING;
