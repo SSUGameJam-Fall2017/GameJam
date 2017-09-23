@@ -1,8 +1,8 @@
 {
-    "id": "3e003089-abe2-431d-9c69-ef78c4c4a2fe",
+    "id": "0fb191d0-20f9-4664-a133-a1f78f49debb",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_pills",
+    "name": "obj_gun",
     "eventList": [
         
     ],
@@ -22,6 +22,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "91b7dec2-c759-4da2-b00e-b53675b0b602",
+    "spriteId": "23b9a06e-8590-4964-8537-83954c8fd47d",
     "visible": true
 }

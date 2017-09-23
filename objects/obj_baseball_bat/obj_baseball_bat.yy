@@ -1,8 +1,8 @@
 {
-    "id": "3e003089-abe2-431d-9c69-ef78c4c4a2fe",
+    "id": "26823ac7-ec39-4415-b27e-88d6268be1a2",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_pills",
+    "name": "obj_baseball_bat",
     "eventList": [
         
     ],
@@ -22,6 +22,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "91b7dec2-c759-4da2-b00e-b53675b0b602",
+    "spriteId": "0ee50125-8ab1-446f-a0b5-5b720b05f02e",
     "visible": true
 }
