@@ -6,5 +6,6 @@ if (image_index > 2) {
 	if (sprite_index != asset_get_index("spr_player_attack")) {
 		sprite_index = asset_get_index("spr_player_attack");
 		image_index = 0;
+		velocity = [0, 0]
 	}
 }

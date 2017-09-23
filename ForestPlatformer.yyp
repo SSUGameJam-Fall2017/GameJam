@@ -87,14 +87,6 @@
             }
         },
         {
-            "Key": "4b40e12f-7855-48b2-baef-c41e3208dd86",
-            "Value": {
-                "id": "467edb58-622e-441e-9f37-773619d1c895",
-                "resourcePath": "sprites\\spr_skeleton_attack\\spr_skeleton_attack.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "4beeb44f-fa2f-4509-a005-b5432ba320c3",
             "Value": {
                 "id": "07d87c70-dd71-40d8-aa27-bf03bb5db50e",
@@ -116,14 +108,6 @@
                 "id": "0ab5fdfc-a59b-4846-b1af-ac829bacd979",
                 "resourcePath": "views\\6b02c4d1-581d-4cda-b914-1da77abe38bc.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "6ffccbca-ec5d-4910-9728-929b1adea930",
-            "Value": {
-                "id": "ef7b3c42-6393-4b35-9ce1-fc6afe4026e0",
-                "resourcePath": "sprites\\spr_skeleton_walk\\spr_skeleton_walk.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -284,14 +268,6 @@
                 "id": "8e50560b-780c-4a47-a054-ced7aa2ecfeb",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
-            }
-        },
-        {
-            "Key": "f6e2af51-6736-474f-8892-2fdf04573dd7",
-            "Value": {
-                "id": "a76a814e-d1a2-430a-9b76-8185208bd7d9",
-                "resourcePath": "sprites\\spr_skeleton_idle\\spr_skeleton_idle.yy",
-                "resourceType": "GMSprite"
             }
         },
         {

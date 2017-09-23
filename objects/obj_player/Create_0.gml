@@ -8,7 +8,7 @@ keyboard_set_map(ord("S"), vk_down);
 velocity = [0, 0];
 acceleration = [1, 0.5];
 jump_height = 4.5;
-max_h_speed = 1.8;
+max_h_speed = 4;
 facing = 1;
 
 IDLE = 0;
