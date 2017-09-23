@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "04b0cc4f-5443-466d-98c7-cc8e671b6690",
+            "Value": {
+                "id": "30585ac1-f0a9-487f-bec0-fc782ece11ba",
+                "resourcePath": "objects\\obj_door\\obj_door.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0602427a-8e56-45fb-add2-42b3dd2a0ef7",
             "Value": {
                 "id": "c82b3e34-ea26-47a8-9ed3-887a95a82fe5",
@@ -303,14 +311,6 @@
             }
         },
         {
-            "Key": "7a4f7f64-cb03-4895-abde-aebb179b693f",
-            "Value": {
-                "id": "86c96917-0e59-4cbd-9ad7-5aeef26d1137",
-                "resourcePath": "tilesets\\doors\\doors.yy",
-                "resourceType": "GMTileSet"
-            }
-        },
-        {
             "Key": "80edb56f-c050-444e-9e5c-eae4d687634e",
             "Value": {
                 "id": "68b5bb18-4292-4851-8afe-1d8fedddade9",
@@ -513,7 +513,8 @@
     ],
     "script_order": [
         "1b9c9a6c-46d8-4f4a-9077-44ad736f5e35",
-        "69b46db5-8381-4e46-a7b2-c760c94f7f04"
+        "69b46db5-8381-4e46-a7b2-c760c94f7f04",
+        "b189dc8a-37d2-4257-88e5-dbf2c8794298"
     ],
     "tutorial": ""
 }
