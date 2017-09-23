@@ -1,18 +1,18 @@
 {
-    "id": "3e003089-abe2-431d-9c69-ef78c4c4a2fe",
+    "id": "30a4a2b7-f1e2-4ac2-871d-7cb44190ac10",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_pills",
+    "name": "obj_pickup",
     "eventList": [
         {
-            "id": "8433eb18-12a2-49da-a71d-59ea39c9962c",
+            "id": "e7f68c43-ae49-48dd-96e6-d9376ad5d420",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "10bd08a0-6618-43d3-8ed6-b9f966386c4d",
             "enumb": 0,
             "eventtype": 4,
-            "m_owner": "3e003089-abe2-431d-9c69-ef78c4c4a2fe"
+            "m_owner": "30a4a2b7-f1e2-4ac2-871d-7cb44190ac10"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -31,6 +31,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "91b7dec2-c759-4da2-b00e-b53675b0b602",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }
