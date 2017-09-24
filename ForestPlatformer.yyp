@@ -567,14 +567,6 @@
             }
         },
         {
-            "Key": "cc137360-d0bb-45ec-ba8f-b6b823310c96",
-            "Value": {
-                "id": "9a40ca5c-be51-4e43-bea6-364f14d256ac",
-                "resourcePath": "rooms\\sandbox2\\sandbox2.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "5d06826a-f154-4ea0-ad18-03e2e356ae6a",
@@ -596,6 +588,14 @@
                 "id": "70daf3a7-8270-4287-b506-aeae7524edaf",
                 "resourcePath": "objects\\obj_story_manager\\obj_story_manager.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d78a8252-4601-4250-a1e9-63e9633d2c56",
+            "Value": {
+                "id": "cc8a17d1-badf-4d51-ab11-92ae83d63cd1",
+                "resourcePath": "scripts\\queue_dialogue\\queue_dialogue.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -679,6 +679,14 @@
             }
         },
         {
+            "Key": "fb434dc2-17eb-452e-90c3-93d0e82993e4",
+            "Value": {
+                "id": "b67e79c0-d0e6-438b-b366-3527619aea7f",
+                "resourcePath": "rooms\\room3\\room3.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "fb8d044d-b272-4619-8c38-197be5f4c3a8",
             "Value": {
                 "id": "789b482a-1c10-4f83-9ddd-cd50926396d6",
@@ -698,7 +706,8 @@
     "script_order": [
         "1b9c9a6c-46d8-4f4a-9077-44ad736f5e35",
         "69b46db5-8381-4e46-a7b2-c760c94f7f04",
-        "b189dc8a-37d2-4257-88e5-dbf2c8794298"
+        "b189dc8a-37d2-4257-88e5-dbf2c8794298",
+        "d78a8252-4601-4250-a1e9-63e9633d2c56"
     ],
     "tutorial": ""
 }
