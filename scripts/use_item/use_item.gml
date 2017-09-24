@@ -44,6 +44,7 @@ if (item_used.contains == 17) { // KEY
 } else if (item_used.contains == 6) { // PILLS
 	with obj_player {
 		pill_count += 1;
+		obj_player.hp -= 14
 		if pill_count >= 8 {
 			hp = 0;
 		}
