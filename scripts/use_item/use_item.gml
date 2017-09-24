@@ -19,7 +19,9 @@ if (item_used.contains == 17) { // KEY
 			}
 		}
 	}
-} else if (item_used.contains == 9) { // BAT
+} else if (item_used.contains == 9) {
+	obj_player.bat = true
+// BAT
 } else if (item_used.contains == 10) { // LARGE FOOD
 	with obj_player {
 		hp = clamp(hp + 30, 0, 100);
