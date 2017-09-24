@@ -32,3 +32,4 @@ CLIMBING = 5;
 DED = 6;
 
 state = IDLE;
+bat = false

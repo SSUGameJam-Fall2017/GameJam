@@ -5,7 +5,7 @@ start_y = y;
 hps = 0
 vps = 0
 grav = 0.5
-hp = 100
+hp = 40
 mode = 1
 enum e_state{
 	IDLE,
@@ -24,3 +24,5 @@ timeInit = current_time;
 timeCurrent = current_time;
 interval = 9000; 
 blend = image_blend
+deathr = false
+deathl = false
