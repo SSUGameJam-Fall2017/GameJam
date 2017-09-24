@@ -551,6 +551,14 @@
             }
         },
         {
+            "Key": "d55ad6c2-cb6e-4816-b176-0801a7f13327",
+            "Value": {
+                "id": "b554a9fa-595a-4fa6-8d9d-f312d40873d4",
+                "resourcePath": "objects\\obj_story_manager\\obj_story_manager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "db0b7080-ff46-4bf2-acf4-d29c4d97760c",
             "Value": {
                 "id": "737edf17-d9c3-4445-800e-873ef92c4496",
