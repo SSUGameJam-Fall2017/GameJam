@@ -2,7 +2,7 @@
     "id": "eb309d49-c775-4936-be3d-c32d1cd5925b",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spt_collidable_ladder",
+    "name": "spr_collidable_ladder",
     "For3D": false,
     "HTile": false,
     "VTile": false,

@@ -11,7 +11,7 @@ alpha = 0;
 
 dialogue_queue = ds_queue_create();
 speaker_queue = ds_queue_create();
-dialogue_time = room_speed * 3;
+dialogue_time = room_speed * 100;
 dialogue_obj = noone;
 alarm[0] = 1;
 

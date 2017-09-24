@@ -19,9 +19,8 @@ if (item_used.contains == 17) { // KEY
 			}
 		}
 	}
-} else if (item_used.contains == 9) {
+} else if (item_used.contains == 9) { // BAT
 	obj_player.bat = true
-// BAT
 } else if (item_used.contains == 10) { // LARGE FOOD
 	with obj_player {
 		hp = clamp(hp + 30, 0, 100);
@@ -44,6 +43,7 @@ if (item_used.contains == 17) { // KEY
 	}
 } else if (item_used.contains == 6) { // PILLS
 	with obj_player {
+		queue_dialogue(obj_story_manager.PILLS_TAKEN);
 		pill_count += 1;
 		if pill_count >= 8 {
 			hp = 0;
@@ -60,4 +60,5 @@ if (item_used.contains == 17) { // KEY
 	with obj_player {
 		hp = 0;
 	}
+	queue_dialogue(obj_story_manager.GUN_FIRED);
 }

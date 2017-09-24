@@ -1,6 +1,7 @@
 //hurt
 if (hp<=0){
 	enemy_state = e_state.DEATH
+	queue_dialogue(obj_story_manager.ENEMY_KNOCKED_OUT);
 }
 else{
 	image_blend = make_colour_hsv(255,255,128)
