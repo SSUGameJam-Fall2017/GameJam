@@ -33,6 +33,7 @@ if (path_index != enemy_path){
 		enemy_state = e_state.IDLE
 	
 	}
+	image_blend = blend
 
 
 }
