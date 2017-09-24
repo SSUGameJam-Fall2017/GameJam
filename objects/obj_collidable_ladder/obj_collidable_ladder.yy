@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_collidable_ladder",
     "eventList": [
-        
+        {
+            "id": "18959ab9-4ab7-42c3-bb12-5f39ca4298bd",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "0c43e388-9716-4649-a609-8590ee93d7c6"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
@@ -22,6 +31,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "1ba9d4bd-3f2b-424c-b5a0-a7ecd13fdff0",
+    "spriteId": "eb309d49-c775-4936-be3d-c32d1cd5925b",
     "visible": true
 }
