@@ -490,7 +490,7 @@
             "Key": "b189dc8a-37d2-4257-88e5-dbf2c8794298",
             "Value": {
                 "id": "ddd2a4ab-df65-4821-9aa0-50207e6e9c83",
-                "resourcePath": "scripts\\script2\\script2.yy",
+                "resourcePath": "scripts\\use_item\\use_item.yy",
                 "resourceType": "GMScript"
             }
         },

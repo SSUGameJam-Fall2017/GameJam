@@ -10,6 +10,7 @@ if (place_meeting(x,y,obj_player)){
 			//obj_player.state = obj_player.DED	
 			timeInit = timeCurrent
 		}		
+		image_blend = blend
 }
 else{
 	mode = 0

@@ -4,7 +4,13 @@ if (hp<=0){
 }
 else{
 	image_blend = make_colour_hsv(255,255,128)
-	hps = 4
+	if (obj_player.direction){
+		hps = 4
+	}
+	else{
+		hps = -4
+	}
+	
 	hp-=1
 	enemy_state = e_state.ATTACK
 	if (place_meeting(x + hps, y, obj_collidable)) {
@@ -15,4 +21,4 @@ else{
 	x = x + hps
 }
 
-image_blend = blend
+
