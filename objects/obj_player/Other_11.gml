@@ -14,8 +14,7 @@ if (h_input == 0) { // To IDLE
 	state = IDLE;
 } else if (v_input > 0) { 
 	if (place_meeting(x, y, obj_door)) { // To Connected Room
-		door = collision_line(x - sprite_width / 2, y - sprite_height / 2, 
-			x + sprite_width / 2, y - sprite_height / 2, obj_door, false, false);
+		door = collision_line(x, y, x, y, obj_door, false, false);
 		if door and not door.is_locked {
 			transition_obj = instance_create_depth(0, 0, 1000, obj_transition);
 			transition_obj.room_index = door.connected_room;
@@ -23,10 +22,13 @@ if (h_input == 0) { // To IDLE
 			transition_obj.destination_y = door.destination_y;
 			with (transition_obj) {
 				event_user(0);
-			}
+			} 
+		} else if door and door.is_locked {
+			queue_dialogue(obj_story_manager.LOCKED_DOOR);
 		}
 	} else if (place_meeting(x, y, obj_collidable_ladder)) { // To CLIMBING
 		state = CLIMBING;
+		queue_dialogue(obj_story_manager.LADDER_APPROACHED);
 	} else { // To JUMPING
 		state = JUMPING;
 	}

@@ -2,8 +2,6 @@
 
 action_index = argument[0];
 
-show_debug_message(obj_story_manager.player_dialogue[action_index, 0]);
-
 player = round(random(1));
 if player == 1 {
 	dialogue = obj_story_manager.player_dialogue[action_index, clamp(round(random(array_length_2d(obj_story_manager.ai_dialogue, action_index))) - 1, 0, 100)];

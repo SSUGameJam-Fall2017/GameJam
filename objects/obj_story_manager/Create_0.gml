@@ -11,7 +11,7 @@ LADDER_APPROACHED = 7;
 KEY_PICKED_UP = 8;
 WAKE_UP = 9;
 ENEMY_ENCOUNTERED = 11;
-ENEMY_KNOCKED_OUT = 12
+ENEMY_KNOCKED_OUT = 12;
 
 ai_dialogue[0, 0] = "";
 player_dialogue[0, 0] = "";
@@ -42,7 +42,7 @@ ai_dialogue[FOOD_PICKED_UP, 0] = "Don't forget to ration, we have at least 70 ye
 ai_dialogue[FOOD_PICKED_UP, 1] = "Mmmmm! Nothing like some stale chips to fill the void that is your life."
 ai_dialogue[FOOD_PICKED_UP, 2] = "How about you go for a jog around the ship instead of eating that last twinkie... Save it for your last meal on the ship in 70 years, it'll last!"
 
-ai_dialogue[LADDER_APPROACHED, 0] = "Left foot, right foot, left foot, right foot... (PRESS W)"
+ai_dialogue[LADDER_APPROACHED, 0] = "Left foot, right foot, left foot, right foot..."
 ai_dialogue[LADDER_APPROACHED, 1] = "You know, ladders kill more people per year than have ever visited space! That means that you are way more likely to die falling off that ladder than you are to be in space!"
 ai_dialogue[LADDER_APPROACHED, 2] = "Bruising from falling off a ladder is the most common injury suffered from climbing ladders."
 
@@ -50,9 +50,10 @@ ai_dialogue[KEY_PICKED_UP, 0] = "Would you look at that! Wonder what that unlock
 ai_dialogue[KEY_PICKED_UP, 1] = "You think that leads to a treasure chest? I heard that they usually put key card locks on those things."
 ai_dialogue[KEY_PICKED_UP, 2] = "Maybe if you break that keycard in half right now, the door will unlock. What, is that not how they work?"
 
-ai_dialogue[WAKE_UP, 0] = "GOOD MORNING SUNSHINE!!!! Welcome back to the land of the living! And me, I'm not technically living, but I'm pretty smart! We encountered a small problem passing through the astroid belt on our way back to Earty. You're gonna have to pilot us the rest of the way manually! We need to get our research back to Earth ASAP, my preleminary research shows that there are potential cures for multiple forms of cancer hidden in the genes of the little guys we found!"
-ai_dialogue[WAKE_UP, 1] = "We are only 70 years or so away from Earth. I've disabled your cryotube; your people need you to perform your duty as an explorer. Don't let them down!"
-ai_dialogue[WAKE_UP, 2] = "It might seem like a long time, and you might have some rough thoughts. But you need to keep moving forward. Never let yourself into those dark places..."
+ai_dialogue[WAKE_UP, 0] = "GOOD MORNING SUNSHINE!!!! Welcome back to the land of the living! And me, I'm not technically living, but I'm pretty smart! We encountered a small problem passing through the astroid belt on our way back to Earth."
+ai_dialogue[WAKE_UP, 1] = "You're gonna have to pilot us the rest of the way manually! We need to get our research back to Earth ASAP, my preleminary research shows that there are potential cures for multiple forms of cancer hidden in the genes of the little guys we found!"
+ai_dialogue[WAKE_UP, 2] = "Look, its only 70 years. I've disabled your cryotube so don't even think about it; your people need you to perform your duty as an explorer. Don't let them down!"
+ai_dialogue[WAKE_UP, 3] = "It might seem like a long time, and you might have some rough thoughts. But you need to keep moving forward. Never let yourself into those dark places..."
 
 ai_dialogue[ENEMY_ENCOUNTERED, 0] = "I see you've met one of my worker bots! They have served me loyally as you slept and helped me keep this ship in tip top shape!"
 ai_dialogue[ENEMY_ENCOUNTERED, 1] = "This one's name is Jeffery, sometimes he goes by Geoffery... If you ask me its a power thing."
@@ -99,8 +100,8 @@ player_dialogue[KEY_PICKED_UP, 2] = "Why are these just lying around?"
 
 player_dialogue[WAKE_UP, 0] = "What? Where am I?"
 player_dialogue[WAKE_UP, 1] = "What do you mean, 'a small problem'?!"
-player_dialogue[WAKE_UP, 2] = "70 years! I'll be dead by the time we get to Earth... Let me back into the cryotube!"
-player_dialogue[WAKE_UP, 3] = "Fine, I'll take matters into my own hands. I'd rather die than live my life out in solitude and boredom with you."
+player_dialogue[WAKE_UP, 2] = "We have a long jounrey ahead of us, I can't pilot us the entire time! Why can't you do it?! Let me back into the cryotube!"
+player_dialogue[WAKE_UP, 3] = "70 years! I'll be dead by the time we get to Earth... Fine, I'll take matters into my own hands. I'd rather die than live my life out in solitude and boredom with you. There has to be a way to kill myself on this ship..."
 
 player_dialogue[ENEMY_ENCOUNTERED, 0] = "Wait, what is his name again? Doctor who? Can I just call him Doc?"
 player_dialogue[ENEMY_ENCOUNTERED, 1] = "This doesn't seem like a very efficient form for worker bots..."
@@ -109,6 +110,3 @@ player_dialogue[ENEMY_ENCOUNTERED, 2] = "You're telling me that these robots are
 player_dialogue[ENEMY_KNOCKED_OUT, 0] = "TAKE THAT, BITCH!"
 player_dialogue[ENEMY_KNOCKED_OUT, 1] = "Doctor who? I'm sorry, one more time, doctor who?"
 player_dialogue[ENEMY_KNOCKED_OUT, 2] = "These mother fuckers better not revive as soon as I turn my back on them... That's some creepy shit..."
-
-
-show_debug_message(player_dialogue[0, 0])
