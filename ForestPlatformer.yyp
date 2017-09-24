@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "0cc454e1-b15f-4d79-b806-17d7dfe6f321",
+            "Value": {
+                "id": "a8488a36-4390-4848-85a3-9383a1572df9",
+                "resourcePath": "sounds\\snd_darkTechno\\snd_darkTechno.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "0ee50125-8ab1-446f-a0b5-5b720b05f02e",
             "Value": {
                 "id": "b446bf40-4c92-490d-b935-630e4d66035a",
@@ -259,6 +267,14 @@
             "Value": {
                 "id": "76263904-5468-45a7-a7e5-83fea26013ed",
                 "resourcePath": "objects\\obj_enemy\\obj_enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5264de37-6989-482f-9761-86e92583f563",
+            "Value": {
+                "id": "3afce37b-8c79-4a12-b393-c9cb4a9f176c",
+                "resourcePath": "objects\\obj_soundManager\\obj_soundManager.yy",
                 "resourceType": "GMObject"
             }
         },

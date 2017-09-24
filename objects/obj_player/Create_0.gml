@@ -27,5 +27,5 @@ FALLING = 3
 ATTACKING = 4;
 CLIMBING = 5;
 DED = 6;
-
 state = IDLE;
+hp = 100

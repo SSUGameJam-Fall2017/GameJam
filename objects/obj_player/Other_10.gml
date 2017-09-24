@@ -34,6 +34,7 @@ if (h_input != 0) { // To WALKING
 	state = FALLING;
 } else if (space_input != 0) { // To ATTACKING
 	state = ATTACKING;
+	
 } else {
 	if (sprite_index != asset_get_index("spr_player_idle")) {
 		sprite_index = asset_get_index("spr_player_idle");
