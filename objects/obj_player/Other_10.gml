@@ -23,6 +23,8 @@ if (h_input != 0) { // To WALKING
 			with (transition_obj) {
 				event_user(0);
 			}
+		} else if door and door.is_locked {
+			queue_dialogue(obj_story_manager.LOCKED_DOOR);
 		}
 	} else if (place_meeting(x, y, obj_collidable_ladder)) { // To CLIMBING
 		state = CLIMBING;
