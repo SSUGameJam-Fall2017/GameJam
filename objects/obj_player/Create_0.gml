@@ -30,6 +30,8 @@ FALLING = 3
 ATTACKING = 4;
 CLIMBING = 5;
 DED = 6;
+PUSHING = 7
 
 state = IDLE;
 bat = false
+//box_collision = false
