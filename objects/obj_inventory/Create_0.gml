@@ -9,7 +9,7 @@ for (i=0; i<5; i++) {
 	ds_list_add(inventory_slots, temp)
 }
 
-t=ds_list_find_value(inventory_slots, 0) // ONLY USED TO SET INIT ACTIVE SLOT
+t = ds_list_find_value(inventory_slots, 0) // ONLY USED TO SET INIT ACTIVE SLOT
 t.active = true
 
 active = 0 // index of active item
