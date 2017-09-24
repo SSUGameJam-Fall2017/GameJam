@@ -5,7 +5,7 @@
     "name": "obj_story_manager",
     "eventList": [
         {
-            "id": "c4c7cf7e-d137-4b3a-a1ce-d46f9f584571",
+            "id": "05dc4c87-a5e7-499d-8bb1-d6b477642192",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
