@@ -19,6 +19,8 @@ jump_height = 11;
 max_h_speed = 4;
 max_v_speed = 4;
 facing = 1;
+pill_count = 0;
+alarm[0] = room_speed;
 
 IDLE = 0;
 WALKING = 1;

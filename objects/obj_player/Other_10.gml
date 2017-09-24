@@ -14,9 +14,8 @@ if (h_input != 0) { // To WALKING
 	state = WALKING;
 } else if (v_input > 0) { 
 	if (place_meeting(x, y, obj_door)) { // To Connected Room
-		door = collision_line(x - sprite_width / 2, y - sprite_height / 2, 
-			x + sprite_width / 2, y - sprite_height / 2, obj_door, false, false);
-		if door {
+		door = collision_line(x, y, x, y, obj_door, false, false);
+		if door and not door.is_locked {
 			transition_obj = instance_create_depth(0, 0, 1000, obj_transition);
 			transition_obj.room_index = door.connected_room;
 			transition_obj.destination_x = door.destination_x;
