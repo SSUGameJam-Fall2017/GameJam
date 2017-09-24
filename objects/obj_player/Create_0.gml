@@ -22,6 +22,7 @@ facing = 1;
 pill_count = 0;
 alarm[0] = room_speed;
 hp = 100
+captured = 100
 
 IDLE = 0;
 WALKING = 1;
