@@ -34,6 +34,4 @@ if (path_index != enemy_path){
 	
 	}
 	image_blend = blend
-
-
 }
