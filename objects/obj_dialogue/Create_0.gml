@@ -12,3 +12,4 @@ chars_per_line = 108;
 
 output_lines[0] = "";
 words[0] = "";
+audio_play_sound(snd_ui,11,false)

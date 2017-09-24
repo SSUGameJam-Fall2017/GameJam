@@ -1,7 +1,7 @@
 /// @description Pickup Collision with Player
 
 var dialogue_var = random(10);
-
+audio_play_sound(snd_pick_up,12,false)
 for (i=0; i<ds_list_size(obj_inventory.inventory_slots); i++){
 	temp = ds_list_find_value(obj_inventory.inventory_slots,i)
 	if (temp.contains == self.sprite_index){
