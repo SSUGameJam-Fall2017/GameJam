@@ -11,8 +11,11 @@ if (image_index > 2) {
 	}
 	if (sprite_index != asset_get_index("spr_player_attack_bat") && bat==true) {
 		sprite_index = asset_get_index("spr_player_attack_bat");
-		audio_play_sound(snd_woosh,7,false)
+		
 		image_index = 0;
+		if (image_index==2){
+			audio_play_sound(snd_woosh,7,false)
+		}
 		velocity = [0, 0]
 	}
 	
