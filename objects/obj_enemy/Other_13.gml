@@ -6,7 +6,7 @@ if (place_meeting(x,y,obj_player)){
 		hps = 0	
 		timeCurrent = current_time
 		if (timeCurrent - timeInit >= interval){
-			obj_player.state = obj_player.DED	
+			//obj_player.state = obj_player.DED	
 			timeInit = timeCurrent
 		}		
 }

@@ -327,14 +327,6 @@
             }
         },
         {
-            "Key": "73936430-9010-4d84-a595-69090e7428d4",
-            "Value": {
-                "id": "33ceb06f-a987-44bc-a83a-0dc9abce3d22",
-                "resourcePath": "rooms\\sandbox\\sandbox.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "75585091-5706-423b-8d81-3c787c3d93f6",
             "Value": {
                 "id": "bfbf17c1-1ed8-4591-a3ee-a037c8b495e1",
