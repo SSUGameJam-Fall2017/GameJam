@@ -10,3 +10,4 @@ state = CLOSED;
 connected_room = 0;
 connected_door = 0;
 is_locked = false;
+dialogue_index_to_queue = -1;

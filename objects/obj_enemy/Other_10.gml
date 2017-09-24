@@ -10,7 +10,6 @@ image_xscale = -1;
 }
 if (point_distance(x,y,player_x,player_y) < 110){ 
 	enemy_state = e_state.CHASE
-	queue_dialogue(obj_story_manager.ENEMY_ENCOUNTERED);
 }
 else if(place_meeting(x,y,obj_player)){
 	enemy_state = e_state.ATTACK

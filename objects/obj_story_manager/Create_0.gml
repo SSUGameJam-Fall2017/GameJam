@@ -55,9 +55,9 @@ ai_dialogue[WAKE_UP, 1] = "You're gonna have to pilot us the rest of the way man
 ai_dialogue[WAKE_UP, 2] = "Look, its only 70 years. I've disabled your cryotube so don't even think about it; your people need you to perform your duty as an explorer. Don't let them down!"
 ai_dialogue[WAKE_UP, 3] = "It might seem like a long time, and you might have some rough thoughts. But you need to keep moving forward. Never let yourself into those dark places..."
 
-ai_dialogue[ENEMY_ENCOUNTERED, 0] = "I see you've met one of my worker bots! They have served me loyally as you slept and helped me keep this ship in tip top shape!"
-ai_dialogue[ENEMY_ENCOUNTERED, 1] = "This one's name is Jeffery, sometimes he goes by Geoffery... If you ask me its a power thing."
-ai_dialogue[ENEMY_ENCOUNTERED, 2] = "These bots are always on full alert for dangerous situations! They won't let a single hair on your hear come to harm."
+ai_dialogue[ENEMY_ENCOUNTERED, 0] = "There are some of my worker bots! They have served me loyally as you slept and helped me keep this ship in tip top shape!"
+ai_dialogue[ENEMY_ENCOUNTERED, 1] = "One of my worker bots in this room is named Jeffery, sometimes he goes by Geoffery... If you ask me its a power thing."
+ai_dialogue[ENEMY_ENCOUNTERED, 2] = "The worker bots in this room are always on full alert for dangerous situations! They won't let a single hair on your hear come to harm."
 
 ai_dialogue[ENEMY_KNOCKED_OUT, 0] = "I guess I'll call the repair bots over... Please, please try to be more careful!"
 ai_dialogue[ENEMY_KNOCKED_OUT, 1] = "GEOFFERY!!!"
@@ -103,9 +103,9 @@ player_dialogue[WAKE_UP, 1] = "What do you mean, 'a small problem'?!"
 player_dialogue[WAKE_UP, 2] = "We have a long jounrey ahead of us, I can't pilot us the entire time! Why can't you do it?! Let me back into the cryotube!"
 player_dialogue[WAKE_UP, 3] = "70 years! I'll be dead by the time we get to Earth... Fine, I'll take matters into my own hands. I'd rather die than live my life out in solitude and boredom with you. There has to be a way to kill myself on this ship..."
 
-player_dialogue[ENEMY_ENCOUNTERED, 0] = "Wait, what is his name again? Doctor who? Can I just call him Doc?"
-player_dialogue[ENEMY_ENCOUNTERED, 1] = "This doesn't seem like a very efficient form for worker bots..."
-player_dialogue[ENEMY_ENCOUNTERED, 2] = "You're telling me that these robots are literally here just to make my day harder?!"
+player_dialogue[ENEMY_ENCOUNTERED, 0] = "Het those worker bots look like those one things! Wait, what is his name again? Doctor who? Can I just call him Doc?"
+player_dialogue[ENEMY_ENCOUNTERED, 1] = "Those worker bots don't seem to be in a very efficient form for work..."
+player_dialogue[ENEMY_ENCOUNTERED, 2] = "You're telling me that these worker bots are literally here just to make my day harder?!"
 
 player_dialogue[ENEMY_KNOCKED_OUT, 0] = "TAKE THAT, BITCH!"
 player_dialogue[ENEMY_KNOCKED_OUT, 1] = "Doctor who? I'm sorry, one more time, doctor who?"

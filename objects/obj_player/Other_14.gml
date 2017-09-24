@@ -5,7 +5,9 @@ if (image_index > 2) {
 } else {
 	if (place_meeting(x, y, obj_enemy) && obj_player.bat==true){
 		e = collision_line(x + (sprite_width/2),y,x - (sprite_width/2),y,obj_enemy,false,false)
-		e.enemy_state = e_state.HURT	
+		if e.state != e_state.DEATH {
+			e.enemy_state = e_state.HURT	
+		}
 	}
 	if (sprite_index != asset_get_index("spr_player_attack_bat") && bat==true) {
 		sprite_index = asset_get_index("spr_player_attack_bat");
