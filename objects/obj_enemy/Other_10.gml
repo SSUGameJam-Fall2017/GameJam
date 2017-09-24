@@ -14,9 +14,7 @@ if (point_distance(x,y,player_x,player_y) < 110){
 else if(place_meeting(x,y,obj_player)){
 	enemy_state = e_state.ATTACK
 }
-else if(hp <= 0){
-	enemy_state = e_state.DEATH
-}
+
 if (!place_meeting(x,y+vps,obj_collidable)){
 		y += grav
 	}
