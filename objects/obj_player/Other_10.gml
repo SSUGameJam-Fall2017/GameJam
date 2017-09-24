@@ -20,6 +20,7 @@ if (h_input != 0) { // To WALKING
 			transition_obj.room_index = door.connected_room;
 			transition_obj.destination_x = door.destination_x;
 			transition_obj.destination_y = door.destination_y;
+			transition_obj.dialogue_index_to_queue = door.dialogue_index_to_queue;
 			with (transition_obj) {
 				event_user(0);
 			}
