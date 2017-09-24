@@ -479,6 +479,14 @@
             }
         },
         {
+            "Key": "871397af-fdcc-4a74-ab36-5f9d359747f1",
+            "Value": {
+                "id": "a920b389-e7ec-428e-9d84-b9ee962c75c2",
+                "resourcePath": "objects\\obj_weaponrack\\obj_weaponrack.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "890f404a-df19-4780-95eb-bd190be4647d",
             "Value": {
                 "id": "0c1b5f45-39b6-421d-b3c1-9f2111ce463d",
@@ -532,6 +540,14 @@
                 "id": "875a9928-9fcb-45a4-8f3d-8d7c5109ac8b",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "aa6cb8a7-0456-43e4-a031-4e8281e170d6",
+            "Value": {
+                "id": "af3d17cd-92dd-4ecd-9538-56c7f279e0b0",
+                "resourcePath": "sprites\\spr_weaponrack\\spr_weaponrack.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
