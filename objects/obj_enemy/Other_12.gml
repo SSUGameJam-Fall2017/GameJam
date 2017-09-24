@@ -33,7 +33,6 @@ if (path_index != enemy_path){
 		enemy_state = e_state.IDLE
 	
 	}
-	show_debug_message("Enemy X" + string(x))
-	show_debug_message("Player X" + string(path_x_begin))
+	
 
 }
