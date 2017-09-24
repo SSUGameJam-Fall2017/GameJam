@@ -1,8 +1,8 @@
 /// @description State: WALKING
 
-var h_input = keyboard_check(vk_right) - keyboard_check(vk_left);
-var v_input = keyboard_check(vk_up) - keyboard_check(vk_down);
-var space_input = keyboard_check(vk_space);
+var h_input = 0;
+var v_input = 0;
+var space_input = 0;
 
 if obj_game_manager.input_allowed {
 	h_input = keyboard_check(vk_right) - keyboard_check(vk_left);
