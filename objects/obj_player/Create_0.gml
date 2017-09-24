@@ -22,6 +22,7 @@ facing = 1;
 pill_count = 0;
 alarm[0] = room_speed;
 hp = 100
+captured = 100
 
 IDLE = 0;
 WALKING = 1;
@@ -30,6 +31,8 @@ FALLING = 3
 ATTACKING = 4;
 CLIMBING = 5;
 DED = 6;
+PUSHING = 7
 
 state = IDLE;
 bat = false
+//box_collision = false

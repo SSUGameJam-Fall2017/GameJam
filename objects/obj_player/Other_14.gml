@@ -3,7 +3,7 @@
 if (image_index > 2) {
 	state = IDLE;
 } else {
-	if (place_meeting(x, y, obj_enemy)){
+	if (place_meeting(x, y, obj_enemy) && obj_player.bat==true){
 		e = collision_line(x + (sprite_width/2),y,x - (sprite_width/2),y,obj_enemy,false,false)
 		e.enemy_state = e_state.HURT	
 	}

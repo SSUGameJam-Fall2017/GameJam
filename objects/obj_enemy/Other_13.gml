@@ -5,16 +5,15 @@ player_x = obj_enemy.x
 player_y = obj_enemy.y
 if (place_meeting(x,y,obj_player)){
 		hps = 0	
-		timeCurrent = current_time
-		if (timeCurrent - timeInit >= interval){
+		obj_player.captured-=1
+		show_debug_message("Captured: " + string(obj_player.captured))
+		if (obj_player.captured <= 0){
 			obj_player.state = obj_player.DED	
-			timeInit = timeCurrent
 		}		
 		image_blend = blend
 }
 else{
 	mode = 0
-	timeInit = current_time
-	timeCurrent = current_time
+	obj_player.captured = 100
 	enemy_state = e_state.CHASE
 }
