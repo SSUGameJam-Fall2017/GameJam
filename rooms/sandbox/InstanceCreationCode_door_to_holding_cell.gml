@@ -1,2 +1,3 @@
 connected_room = 0;
-connected_door = "door_to_sandbox";
+destination_x = 800;
+destination_y = 544; 

@@ -1,2 +1,3 @@
 connected_room = 1;
-connected_door = "door_to_holding_cell";
+destination_x = 112;
+destination_y = 480;
