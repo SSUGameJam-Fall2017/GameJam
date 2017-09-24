@@ -1,3 +1,0 @@
-/// @description Captured
-
-captured = true;

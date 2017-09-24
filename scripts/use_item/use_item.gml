@@ -43,15 +43,7 @@ if (item_used.contains == 17) { // KEY
 	}
 } else if (item_used.contains == 6) { // PILLS
 	with obj_player {
-		pill_count += 1;
-		obj_player.hp -= 14
-		if pill_count >= 8 {
-			hp = 0;
-		}
-		
-		if pill_count == 1 and item_used.count < 8 {
-			queue_dialogue(obj_story_manager.PILLS_PICKED_UP)
-		}
+		hp -= 14
 		
 		if item_used.count > 1 {
 			item_used.count -= 1
