@@ -10,10 +10,11 @@ if (item_used.contains == 17) { // KEY
 				x + sprite_width / 2, y - sprite_height / 2, obj_door, false, false);
 			if door.is_locked {
 				door.is_locked = false;
-				if item_used.count >= 1 {
+				if item_used.count > 1 {
 					item_used.count -= 1
 				} else {
 					item_used.contains = "";
+					item_used.count = 0;
 				}
 			}
 		}
@@ -22,10 +23,22 @@ if (item_used.contains == 17) { // KEY
 } else if (item_used.contains == 10) { // LARGE FOOD
 	with obj_player {
 		hp = clamp(hp + 30, 0, 100);
+		if item_used.count > 1 {
+			item_used.count -= 1
+		} else {
+			item_used.contains = "";
+			item_used.count = 0;
+		}
 	}
 } else if (item_used.contains == 11) { // CAN FOOD
 	with obj_player {
 		hp = clamp(hp + 10, 0, 100);
+		if item_used.count > 1 {
+			item_used.count -= 1
+		} else {
+			item_used.contains = "";
+			item_used.count = 0;
+		}
 	}
 } else if (item_used.contains == 6) { // PILLS
 	with obj_player {
@@ -34,10 +47,11 @@ if (item_used.contains == 17) { // KEY
 			hp = 0;
 		}
 		
-		if item_used.count >= 1 {
+		if item_used.count > 1 {
 			item_used.count -= 1
 		} else {
 			item_used.contains = "";
+			item_used.count = 0;
 		}
 	}
 } else if (item_used.contains == 8) { // GUN
