@@ -21,6 +21,7 @@ max_v_speed = 4;
 facing = 1;
 pill_count = 0;
 alarm[0] = room_speed;
+hp = 100
 
 IDLE = 0;
 WALKING = 1;
