@@ -20,4 +20,5 @@ for (var i = 1; i < array_length_1d(words); i++) {
 
 if (string_length(overflow) > 0) {
 	ds_queue_enqueue(obj_game_manager.dialogue_queue, overflow);
+	ds_queue_enqueue(obj_game_manager.speaker_queue, speaker);
 }

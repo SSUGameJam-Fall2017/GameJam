@@ -8,7 +8,7 @@ if ds_queue_size(dialogue_queue) > 0 {
 	input_allowed = false;
 	dialogue_obj = instance_create_depth(0, 0, 1000, obj_dialogue);
 	dialogue_obj.text = ds_queue_dequeue(dialogue_queue);
-	dialogue_obj.speaker = "Speaker";
+	dialogue_obj.speaker = ds_queue_dequeue(speaker_queue);
 	with (dialogue_obj) {
 		event_user(0);
 	}
