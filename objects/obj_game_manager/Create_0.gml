@@ -5,6 +5,7 @@ start_sprite = noone;
 is_paused = false;
 in_dialogue = false;
 game_over = false;
+captured = false;
 input_allowed = true;
 
 alpha = 0;

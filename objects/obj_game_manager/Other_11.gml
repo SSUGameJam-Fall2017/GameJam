@@ -1,3 +1,3 @@
-/// @description Restart Game
+/// @description End Game
 
 game_over = true;
