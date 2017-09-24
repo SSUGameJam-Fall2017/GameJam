@@ -12,7 +12,7 @@ else{
 	else if(obj_player.facing==-1){
 		hps = -4
 	}
-	
+	audio_play_sound(snd_enemy_Hit,8,false);
 	hp-=1
 	if (place_meeting(x + hps, y, obj_collidable)) {
 		while (not place_meeting(x + sign(hps), y, obj_collidable)) {

@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "0d5590e3-d85e-403f-bf14-9c685c0a9d29",
+            "Value": {
+                "id": "e4866451-ec85-4e09-b23c-60d40ba5be1a",
+                "resourcePath": "sounds\\snd_gun_laser\\snd_gun_laser.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "0ee50125-8ab1-446f-a0b5-5b720b05f02e",
             "Value": {
                 "id": "b446bf40-4c92-490d-b935-630e4d66035a",
@@ -279,6 +287,14 @@
             }
         },
         {
+            "Key": "4a8df7de-88e3-40e2-8047-5952bbfce9c0",
+            "Value": {
+                "id": "ffdb9f78-be91-4aaa-8a01-031696326865",
+                "resourcePath": "scripts\\play_music\\play_music.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4beeb171-3f67-43e7-bad5-6cf0f4c1248a",
             "Value": {
                 "id": "1f7b6294-59ef-419d-82f0-29e88b2a24a9",
@@ -316,6 +332,14 @@
                 "id": "3afce37b-8c79-4a12-b393-c9cb4a9f176c",
                 "resourcePath": "objects\\obj_soundManager\\obj_soundManager.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "546cbe99-1792-46eb-abbc-099c1ea65dfd",
+            "Value": {
+                "id": "478d50a3-7d27-4041-9cee-1593d2d7798e",
+                "resourcePath": "sounds\\snd_enemy_Hit\\snd_enemy_Hit.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -551,6 +575,14 @@
             }
         },
         {
+            "Key": "ad2091c8-f21d-4657-b852-2843c382910b",
+            "Value": {
+                "id": "d69b53b2-c691-4afe-863f-5036f85bf334",
+                "resourcePath": "sounds\\snd_haunting_music\\snd_haunting_music.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "ad777e2e-323a-4a85-b264-b339bbc1c6cc",
             "Value": {
                 "id": "2108adc5-5718-4aa4-b415-5645d4f5481e",
@@ -639,6 +671,14 @@
             }
         },
         {
+            "Key": "cfd51dba-4f2c-499c-afa3-1c6428e1cc56",
+            "Value": {
+                "id": "198d968d-3c34-4877-92b8-2cdfedc5e502",
+                "resourcePath": "sounds\\snd_woosh\\snd_woosh.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "d55ad6c2-cb6e-4816-b176-0801a7f13327",
             "Value": {
                 "id": "70daf3a7-8270-4287-b506-aeae7524edaf",
@@ -679,6 +719,14 @@
             }
         },
         {
+            "Key": "e16c1608-1293-4878-8546-2a7fa41575dc",
+            "Value": {
+                "id": "9cf64a39-b837-43ce-806a-25ede9aacce4",
+                "resourcePath": "sounds\\snd_inventory\\snd_inventory.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "e18e81c0-e3fc-43c8-8367-30414ee11ff8",
             "Value": {
                 "id": "9d28611b-81a8-4087-a1e5-4f786ab26b94",
@@ -711,6 +759,14 @@
             }
         },
         {
+            "Key": "eb24ea2e-5369-473e-a8af-cdc5feb52565",
+            "Value": {
+                "id": "a472dfdf-b042-4476-a058-c15a315e476f",
+                "resourcePath": "sounds\\snd_pill_gulp\\snd_pill_gulp.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "eb309d49-c775-4936-be3d-c32d1cd5925b",
             "Value": {
                 "id": "c11f55ca-6b7c-4cfd-814f-97c8f53bcac8",
@@ -732,6 +788,14 @@
                 "id": "0e99700e-9b34-427e-b7e7-9ed161d4d2d9",
                 "resourcePath": "sprites\\spr_dialogue\\spr_dialogue.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fada9289-9cc8-4c1d-bb44-10c88e8977b8",
+            "Value": {
+                "id": "851928a0-8a70-4843-8126-2da0236f9722",
+                "resourcePath": "sounds\\snd_body_thud\\snd_body_thud.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -764,7 +828,8 @@
         "69b46db5-8381-4e46-a7b2-c760c94f7f04",
         "b189dc8a-37d2-4257-88e5-dbf2c8794298",
         "d78a8252-4601-4250-a1e9-63e9633d2c56",
-        "5b9c6f66-6c40-46fb-a2bb-753c988fc491"
+        "5b9c6f66-6c40-46fb-a2bb-753c988fc491",
+        "4a8df7de-88e3-40e2-8047-5952bbfce9c0"
     ],
     "tutorial": ""
 }

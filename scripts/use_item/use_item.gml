@@ -22,6 +22,7 @@ if (item_used.contains == 17) { // KEY
 } else if (item_used.contains == 9) { // BAT
 	obj_player.bat = true
 } else if (item_used.contains == 10) { // LARGE FOOD
+	audio_play_sound(snd_pill_gulp,5,false)
 	with obj_player {
 		hp = clamp(hp + 30, 0, 100);
 		if item_used.count > 1 {
@@ -32,6 +33,7 @@ if (item_used.contains == 17) { // KEY
 		}
 	}
 } else if (item_used.contains == 11) { // CAN FOOD
+	audio_play_sound(snd_pill_gulp,4,false)
 	with obj_player {
 		hp = clamp(hp + 10, 0, 100);
 		if item_used.count > 1 {
@@ -42,6 +44,7 @@ if (item_used.contains == 17) { // KEY
 		}
 	}
 } else if (item_used.contains == 6) { // PILLS
+	audio_play_sound(snd_pill_gulp,3,false)
 	with obj_player {
 		pill_count += 1;
 		if pill_count >= 8 {
@@ -60,6 +63,8 @@ if (item_used.contains == 17) { // KEY
 		}
 	}
 } else if (item_used.contains == 8) { // GUN
+	audio_play_sound(snd_gun_laser,1,false)
+	audio_play_sound(snd_body_thud,2,false)
 	with obj_player {
 		hp = 0;
 	}

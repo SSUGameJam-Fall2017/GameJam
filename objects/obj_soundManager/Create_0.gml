@@ -1,1 +1,1 @@
-audio_play_sound(snd_darkTechno,0,true)
+play_music(snd_darkTechno)
