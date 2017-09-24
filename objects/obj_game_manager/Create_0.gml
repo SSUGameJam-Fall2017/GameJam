@@ -16,3 +16,4 @@ dialogue_obj = noone;
 alarm[0] = 1;
 
 instance_deactivate_all(true);
+randomize();

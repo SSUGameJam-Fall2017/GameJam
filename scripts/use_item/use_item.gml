@@ -11,7 +11,7 @@ if (item_used.contains == 17) { // KEY
 			if door.is_locked {
 				door.is_locked = false;
 				if item_used.count > 1 {
-					item_used.count -= 1
+					item_used.count -= 1;
 				} else {
 					item_used.contains = "";
 					item_used.count = 0;
@@ -43,10 +43,13 @@ if (item_used.contains == 17) { // KEY
 	}
 } else if (item_used.contains == 6) { // PILLS
 	with obj_player {
-		queue_dialogue(obj_story_manager.PILLS_TAKEN);
 		pill_count += 1;
 		if pill_count >= 8 {
 			hp = 0;
+		}
+		
+		if pill_count == 1 and item_used.count < 8 {
+			queue_dialogue(obj_story_manager.PILLS_PICKED_UP)
 		}
 		
 		if item_used.count > 1 {

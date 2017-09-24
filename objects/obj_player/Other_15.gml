@@ -1,7 +1,7 @@
 /// @description State: CLIMBING
 
-var h_input = 0
-var v_input = 0;
+h_input = keyboard_check(vk_right) - keyboard_check(vk_left);
+v_input = keyboard_check(vk_up) - keyboard_check(vk_down);
 
 if obj_game_manager.input_allowed {
 	h_input = keyboard_check(vk_right) - keyboard_check(vk_left);
@@ -29,6 +29,6 @@ if (h_input == 0) {
 velocity[1] = clamp(velocity[1] - v_input, -max_v_speed, max_v_speed);
 
 if (not place_meeting(x, y, obj_collidable_ladder) or 
-	(state == CLIMBING and place_meeting(x, y + 10, obj_collidable))) { // To IDLE
+	(state == CLIMBING and place_meeting(x, y + 5, obj_collidable))) { // To IDLE
 	state = IDLE;
 }

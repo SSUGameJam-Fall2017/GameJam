@@ -28,7 +28,6 @@ if (h_input != 0) { // To WALKING
 		}
 	} else if (place_meeting(x, y, obj_collidable_ladder)) { // To CLIMBING
 		state = CLIMBING;
-		queue_dialogue(obj_story_manager.LADDER_APPROACHED);
 	} else { // To JUMPING
 		state = JUMPING;
 	}
