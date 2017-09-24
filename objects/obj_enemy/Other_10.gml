@@ -23,4 +23,5 @@ if (!place_meeting(x,y+vps,obj_collidable)){
 		while (not place_meeting(x, y + 1, obj_collidable)) {
 			y += 1;
 		}
-	}
+}
+image_blend = blend

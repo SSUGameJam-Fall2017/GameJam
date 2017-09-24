@@ -37,7 +37,9 @@ if (point_distance(x,y,player_x,player_y) < 110){
 			y += 1;
 		}
 	}
+	image_blend = blend
 }else if (path_index != enemy_path){
 	enemy_state = e_state.RETURN
+	image_blend = blend
 	
 }

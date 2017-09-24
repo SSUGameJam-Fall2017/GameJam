@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "506f58da-7d63-4ecb-b3ed-53d409b1e0ad",
+            "Value": {
+                "id": "6059f0af-40c5-45e3-807f-c1f0a0fa0bf4",
+                "resourcePath": "sprites\\spr_player_attack_bat\\spr_player_attack_bat.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "51acd642-1cdc-4237-b0f1-ef62fa9aae2b",
             "Value": {
                 "id": "76263904-5468-45a7-a7e5-83fea26013ed",
@@ -548,6 +556,14 @@
                 "id": "5d06826a-f154-4ea0-ad18-03e2e356ae6a",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cd0931f7-c45c-48a1-bc49-d0b51a53a26f",
+            "Value": {
+                "id": "94ba9bda-4b5d-4856-b6d7-ccb665492034",
+                "resourcePath": "sprites\\spr_enemy_dead\\spr_enemy_dead.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
