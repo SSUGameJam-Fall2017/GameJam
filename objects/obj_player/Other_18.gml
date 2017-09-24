@@ -1,4 +1,4 @@
-/// @description State: DED
+/// @description RLYDED
 
 if (sprite_index != asset_get_index("spr_player_ded")) {
 	sprite_index = asset_get_index("spr_player_ded");
@@ -6,5 +6,5 @@ if (sprite_index != asset_get_index("spr_player_ded")) {
 }
 
 with obj_game_manager {
-	event_user(2);
+	event_user(1);
 }

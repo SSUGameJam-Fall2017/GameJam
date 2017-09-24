@@ -32,6 +32,7 @@ ATTACKING = 4;
 CLIMBING = 5;
 DED = 6;
 PUSHING = 7
+RLYDED = 8;
 
 state = IDLE;
 bat = false

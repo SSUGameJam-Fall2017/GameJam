@@ -47,6 +47,7 @@ if (item_used.contains == 17) { // KEY
 	audio_play_sound(snd_pill_gulp,3,false)
 	with obj_player {
 		pill_count += 1;
+		obj_player.hp -= 14
 		if pill_count >= 8 {
 			hp = 0;
 		}
