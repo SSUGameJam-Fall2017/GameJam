@@ -8,4 +8,4 @@ if hp <= 0 {
 	state = RLYDED;
 }
 
-hp -= 0.01
+hp -= 0.011
